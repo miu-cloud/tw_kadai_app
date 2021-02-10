@@ -13,3 +13,33 @@
  *= require_tree .
  *= require_self
  */
+ *{
+    margin : 0px;
+    padding: 0px;
+}
+.header{
+    background-color:#99FFFF;
+    text-align: center;
+    font-size: 35px;
+    color: aliceblue;
+    text-shadow: 2px 2px 1px #000,
+                -2px 2px 1px #000,
+                2px -2px 1px #000,
+                -2px -2px 1px #000;
+}
+.sized{
+    width: 100%;
+    height: 685px;
+    object-position: 50px 50px;
+
+}
+.footer{
+    background-color:#99FFFF;
+    text-align: center;
+    padding-top: 15px;
+    color: aliceblue;
+    text-shadow: 2px 2px 1px #000,
+                -2px 2px 1px #000,
+                2px -2px 1px #000,
+                -2px -2px 1px #000;
+}
