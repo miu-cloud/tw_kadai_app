@@ -1,8 +1,5 @@
 class PostsController < ApplicationController
   def index
-    @posts=[
-      "A",
-      "B"
-    ]
+    @posts=Post.all
   end
 end

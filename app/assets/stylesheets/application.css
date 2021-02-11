@@ -18,14 +18,19 @@
     padding: 0px;
 }
 .header{
-    background-color:#99FFFF;
-    text-align: center;
-    font-size: 35px;
+    background-color: #99FFFF;
+}
+.header-log{
+    background-color: #99FFFF;
+    text-align: right;
+    font-size: 20px;  
+}
+a{
     color: aliceblue;
     text-shadow: 2px 2px 1px #000,
-                -2px 2px 1px #000,
-                2px -2px 1px #000,
-                -2px -2px 1px #000;
+    -2px 2px 1px #000,
+    2px -2px 1px #000,
+    -2px -2px 1px #000;
 }
 .sized{
     width: 100%;

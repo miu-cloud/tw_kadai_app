@@ -1,3 +1,15 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+h2{
+    text-align: center;
+    color: aqua;
+    text-shadow: 2px 2px 1px #3399FF,
+    -2px 2px 1px #3399FF,
+    2px -2px 1px #3399FF,
+    -2px -2px 1px #3399FF;
+}
+.form{
+    max-width: 600px;
+    margin:0 auto;
+}

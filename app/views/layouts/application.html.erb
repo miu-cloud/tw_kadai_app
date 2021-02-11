@@ -11,7 +11,11 @@
 
   <body>
    <header class ="header ">
-      <div class ="header-log">My Tweet</div>
+     <h2>My Tweet</h2>
+      <div class ="header-log">
+        <%= link_to "ツイート", "/top" %>
+        <%= link_to "投稿一覧", "/posts/index" %>
+      </div>
    </header> 
    <%= yield %>
         <%= image_tag "/bird.png",class: "sized"%>

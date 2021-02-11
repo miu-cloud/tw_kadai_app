@@ -1,5 +1,13 @@
 <div class = "main top-main">
- <div class = "top-message">
-  <h2>呟き</h2>
- </div>
+    <div class = "top-message">
+        <h2>ツイートしてください</h2>
+    </div>
+      <%= form_tag( '/posts/create')do %>
+        <div class = "form">
+            <textarea name ="content"></textarea>
+            <input type ="submit" value="ツイートする">
+        </div>
+      <% end %>
+
+
 </div>
